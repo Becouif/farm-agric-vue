@@ -8,7 +8,7 @@
                     <div class="flex space-x-7">
                         <!-- Website Logo -->
                         <div class="">
-                            <a href="/index" class="flex items-center py-4 px-2 ">
+                            <a href="/" class="flex items-center py-4 px-2 ">
                                 <h1 class="text-gray-50 h-15 text-7xl text-center"><i class="fas fa-leaf"></i>
                                 </h1>
                             </a>
