@@ -1,6 +1,6 @@
 <template>
   <!-- this template contain the header  -->
-  <section class="bg-gradient-to-r from-green-800 to-green-400" id="home">
+  <section class="bg-gradient-to-r from-green-800 to-green-400 " id="home">
     <div id="heading" class="font-bold">
       <nav class=" shadow-lg sm:grid-cols-1">
             <div class="max-w-6xl mx-auto px-4">
@@ -34,10 +34,40 @@
 
 
 <style scoped>
+nav {
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:1000;
+    background: rgba(22, 101, 52, 0.7);
+    /* background: rgba(0, 0, 0, 0.7) */
+}
 div.mynavbar {
     padding-left: 47rem;
 }
 a.nav-link {
     padding: 1rem;
 }
+
+
+@media (max-width:768px) {
+    
+    div.mynavbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 0; /* Remove padding on mobile */
+    }
+    
+    /* Ensure the nav links are displayed properly on mobile */
+    a.nav-link {
+        /* margin:auto; */
+        padding: 0.25rem; /* Adjust padding for better fit on mobile */
+        text-align: center;
+    }
+}
+
 </style>
