@@ -11,7 +11,7 @@
                 </span>
 
             </div>
-            <div class="text-gray-50 cursor-dis bg-green-400">
+            <div class="text-green-800 cursor-dis">
                 <h3>Office Location</h3>
                 <p>No 28 bab'yaka street Uzhhorod Ukraine.</p>
             </div>
